@@ -1,0 +1,30 @@
+.miniCard{
+    display: flex;
+    border: solid 1px lightgrey;
+    position: relative;
+    margin-left: 10px;
+    padding: 0px;
+    margin-bottom: 10px;
+}
+.miniCard:hover{
+    background-color: lightgrey;
+}
+.btn{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    margin: auto 0px;
+}
+.image{
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    margin:auto 0px;
+}
+img{
+    height: 100%;
+}
+.name{
+    box-sizing: border-box;
+    text-align: center;
+}
