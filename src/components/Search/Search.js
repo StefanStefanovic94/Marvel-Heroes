@@ -10,7 +10,7 @@ const Search = ({ searchedHeroes }) => {
 
     return (
         <div className={style.search}>
-            <input onChange={getValue} placeholder="search here..."></input>
+            <input onChange={getValue} placeholder="search..."></input>
         </div>)
 }
 export default Search
